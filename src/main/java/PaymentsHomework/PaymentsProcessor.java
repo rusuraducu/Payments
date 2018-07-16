@@ -54,7 +54,7 @@ public class PaymentsProcessor {
         return this;
     }
 
-    public PaymentsProcessor customerAccount() {
+    public PaymentsProcessor loadCustomersAccount() {
         try {
             CsvReader customers = new CsvReader(customersPath);
             customers.readHeaders();
