@@ -23,7 +23,7 @@ public class PaymentsProcessor {
         this.requestsPath = requestsPath;
     }
 
-    public void getCustomerAccounts(String customersPath) {
+    public void getCustomersAccount(String customersPath) {
         this.customersPath = customersPath;
     }
 
