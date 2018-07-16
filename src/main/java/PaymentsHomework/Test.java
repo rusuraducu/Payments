@@ -6,7 +6,7 @@ public class Test {
 
         //Files path
         paymentsProcessor.getPaymentsRequest("D:\\requestsCSV.csv");
-        paymentsProcessor.getCustomerAccounts("D:\\customers.csv");
+        paymentsProcessor.getCustomersAccount("D:\\customers.csv");
         paymentsProcessor.setRejectionsCSV("D:\\rejections.csv");
 
         //Processing payments and get report.
