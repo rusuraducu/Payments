@@ -10,7 +10,7 @@ public class Test {
         paymentsProcessor.setRejectionsCSV("D:\\rejections.csv");
 
         //Processing payments and get report.
-        paymentsProcessor.customerAccount()
+        paymentsProcessor.loadCustomersAccount()
                 .loadPayments()
                 .processingPayments()
                 .writeRejectionsToCSV()
