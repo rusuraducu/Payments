@@ -103,7 +103,7 @@ public class PaymentsProcessor {
 
     public void getReport() {
         char percentage = '%';
-        System.out.println("Total payments request: "+ paymentsRequestList.size());
+        System.out.println("Total payment requests: "+ paymentsRequestList.size());
         System.out.println("===========================");
         System.out.println("Success Rate:        "+successRate()+"%");
         System.out.println("Rejection Rate:      "+rejectionRate()+"%");
